@@ -1,0 +1,325 @@
+[ 2017-07-18T21:03:50+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000909s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000981s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006954s ]
+
+[ 2017-07-18T21:10:09+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-07-18T21:10:12+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-07-18T21:10:14+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-07-18T21:10:33+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2017-07-18T21:10:34+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2017-07-18T21:10:35+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2017-07-18T21:10:36+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2017-07-18T21:10:36+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2017-07-18T21:10:37+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2017-07-18T21:10:53+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-07-18T21:17:06+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-07-18T21:17:06+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlstyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 非法操作:CSS_URL.htmlstyle.css
+
+[ 2017-07-18T21:17:07+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmljquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 非法操作:JS_URL.htmljquery-2.1.4.min.js
+
+[ 2017-07-18T21:17:07+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmlparticles.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 非法操作:JS_URL.htmlparticles.min.js
+
+[ 2017-07-18T21:17:07+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlfont-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 非法操作:CSS_URL.htmlfont-awesome.css
+
+[ 2017-07-18T21:17:07+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmlparticles.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 非法操作:JS_URL.htmlparticles.min.js
+
+[ 2017-07-18T21:17:08+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-07-18T21:17:08+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmljquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 非法操作:JS_URL.htmljquery-2.1.4.min.js
+
+[ 2017-07-18T21:17:08+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmlparticles.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 非法操作:JS_URL.htmlparticles.min.js
+
+[ 2017-07-18T21:17:08+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlstyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 非法操作:CSS_URL.htmlstyle.css
+
+[ 2017-07-18T21:17:09+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlfont-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 非法操作:CSS_URL.htmlfont-awesome.css
+
+[ 2017-07-18T21:17:09+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmlparticles.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 非法操作:JS_URL.htmlparticles.min.js
+
+[ 2017-07-18T21:17:34+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-07-18T21:17:34+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlstyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 非法操作:CSS_URL.htmlstyle.css
+
+[ 2017-07-18T21:17:34+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmlparticles.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 非法操作:JS_URL.htmlparticles.min.js
+
+[ 2017-07-18T21:17:34+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmljquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 非法操作:JS_URL.htmljquery-2.1.4.min.js
+
+[ 2017-07-18T21:17:35+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlfont-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 非法操作:CSS_URL.htmlfont-awesome.css
+
+[ 2017-07-18T21:17:35+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmlparticles.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 非法操作:JS_URL.htmlparticles.min.js
+
+[ 2017-07-18T21:17:51+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-07-18T21:17:51+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlstyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+ERR: 非法操作:CSS_URL.htmlstyle.css
+
+[ 2017-07-18T21:17:51+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlfont-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 非法操作:CSS_URL.htmlfont-awesome.css
+
+[ 2017-07-18T21:17:52+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmljquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+ERR: 非法操作:JS_URL.htmljquery-2.1.4.min.js
+
+[ 2017-07-18T21:17:52+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmlparticles.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 非法操作:JS_URL.htmlparticles.min.js
+
+[ 2017-07-18T21:17:52+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-07-18T21:17:52+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmljquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 非法操作:JS_URL.htmljquery-2.1.4.min.js
+
+[ 2017-07-18T21:17:52+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlstyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 非法操作:CSS_URL.htmlstyle.css
+
+[ 2017-07-18T21:17:53+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmlparticles.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: 非法操作:JS_URL.htmlparticles.min.js
+
+[ 2017-07-18T21:17:53+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlfont-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 非法操作:CSS_URL.htmlfont-awesome.css
+
+[ 2017-07-18T21:17:53+08:00 ] 127.0.0.1 /index.php/Home/Index/JS_URL.htmlparticles.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 非法操作:JS_URL.htmlparticles.min.js
+
+[ 2017-07-18T21:17:59+08:00 ] 127.0.0.1 /index.php/Home/Index/CSS_URL.htmlstyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 非法操作:CSS_URL.htmlstyle.css
+
+[ 2017-07-18T21:18:28+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+

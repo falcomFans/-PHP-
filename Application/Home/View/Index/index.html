@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<script src="{:C('JS_URL')}jquery-2.1.4.min.js"></script>
+	<script src="{:C('JS_URL')}bootstrap.js"></script>
+	<link rel="stylesheet" href="{:C('CSS_URL')}bootstrap.css">
+</head>
+
+<body>
+	<div class="container">
+		<form action="{:U('Cate/add')}" method="POST" class="form-inline" >
+			
+			<input type="text" name="cate_name" class="form-control" >
+			<select name="cate_info" id="cate_info" class="form-control">
+				<option value="0|-1">顶级分类</option>
+				<foreach name="cates" item="v" key="k">
+				<option value="{$v.cat_id}|{$v.cat_level}">{:str_repeat("----",$v['cat_level'])}{$v.cat_name}</option>	
+				</foreach>			
+			</select>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>序号</th>
+					<th>名称</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="cates" item="v" key="k">
+				<tr>
+					<td>{$k+1}</td>
+					<td>{:str_repeat("----",$v['cat_level'])}{$v.cat_name}</td>
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+</html>
